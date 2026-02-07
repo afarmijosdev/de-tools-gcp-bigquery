@@ -33,7 +33,7 @@ resource "google_storage_bucket" "hw3-bucket" {
 
 
 
-resource "google_bigquery_dataset" "rides_dataset" {
+resource "google_bigquery_dataset" "hw3_dataset" {
   dataset_id = var.bq_dataset_name
   location   = var.location
 }

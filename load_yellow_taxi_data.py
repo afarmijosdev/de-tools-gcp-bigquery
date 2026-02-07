@@ -8,10 +8,12 @@ import time
 
 
 # Change this to your bucket name
-BUCKET_NAME = "dezoomcamp_hw3_2025"
+#BUCKET_NAME = "dezoomcamp_hw3_2025"
+BUCKET_NAME = "afarmijostech_dezoomcamp_hw3_2025"
 
 # If you authenticated through the GCP SDK you can comment out these two lines
-CREDENTIALS_FILE = "gcs.json"
+#CREDENTIALS_FILE = "gcs.json"
+CREDENTIALS_FILE = "/Users/alexlearn/Downloads/project-83b7a5b9-3948-4d0a-ab3-8bee679d2775.json"
 client = storage.Client.from_service_account_json(CREDENTIALS_FILE)
 # If commented initialize client with the following
 # client = storage.Client(project='zoomcamp-mod3-datawarehouse')
