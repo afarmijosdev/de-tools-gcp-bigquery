@@ -1,0 +1,6 @@
+region            = "us-central1"
+project           = "project-83b7a5b9-3948-4d0a-ab3"
+location          = "US"
+bq_dataset_name   = "rides_dataset"
+gcs_bucket_name   = "afarmijostech_dezoomcamp_hw3_2025"
+gcs_storage_class = "STANDARD"

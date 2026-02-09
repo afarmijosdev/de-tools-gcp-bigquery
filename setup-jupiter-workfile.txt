@@ -1,0 +1,8 @@
+pip install pandas pyarrow
+uv init --python=3.13
+uv run python -V
+uv add pandas pyarrow
+uv add --dev jupyter
+uv add google-cloud-bigquery
+uv run jupyter notebook
+uv run python load_yellow_taxi_data.py
