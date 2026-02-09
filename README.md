@@ -1,4 +1,14 @@
-# de-tools-docker-terraform
-To setup a env for data engineering tools using terraform and docker
+# de-tools-gcp-bigquery
 
-First commit
+The answer of the exercise can be found in 
+
+    BigQuery-Answers.sql
+    
+The gcp bucket `afarmijostech_dezoomcamp_hw3_2025` and bigquery `rides_dataset` dataset were created through terraform, with these commands
+
+    export GOOGLE_APPLICATION_CREDENTIALS="PATH OF JSON FILE"
+    terraform init
+    terraform plan -var-file=demo.tfvars
+    terraform apply -var-file=demo.tfvars
+
+
