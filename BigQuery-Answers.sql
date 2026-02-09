@@ -67,5 +67,10 @@ FROM `project-83b7a5b9-3948-4d0a-ab3.rides_dataset.yellow_tripdata_partitioned_c
 WHERE DATE(tpep_dropoff_datetime) BETWEEN '2024-03-01' AND '2024-03-15';
 
 
+-- QUESTION-9
+
+SELECT count(*)
+FROM `project-83b7a5b9-3948-4d0a-ab3.rides_dataset.yellow_tripdata_non_partitioned`;
+
 
 
